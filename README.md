@@ -1,2 +1,1 @@
-# example
- 
+This is my Javascript study!

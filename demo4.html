@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      /*while(i<10){
+          document.write("Hellow universe" +i+ " <br/>");
+          i=i + 1;
+      }
+      */
+      for (var i = 0; i < 10; i++) {
+        document.write("Hello universe" + i + "<br/>");
+      }
+
+      //for(초기화,반복 조건, 반복실행)
+      // i = i + 1 == i++
+
+      /* i ++
+      i = 0;
+      alert(i++);
+      시 0이 출력
+      -> 0을 출력후 1을 더함
+
+      ++i
+      i = 0;
+      alert(++i);
+      시 1이 출력
+      ->1을 더한 후 출력
+      */
+      for (var i = 0; i < 10; i++) {
+        if (i === 5) {
+          break;
+        }
+        document.write("Hello universe" + i + "<br/>");
+      }
+      //break = break를 만날시 반복문을 종료
+      for (var i = 0; i < 10; i++) {
+        if (i === 5) {
+          continue;
+        }
+        document.write("Hello universe" + i + "<br/>");
+      }
+      //continue = continue를 만난 순간에만 반복문을 종료하고 반복문을 계속 실행
+
+      for (var i = 0; i < 10; i++) {
+        for (var j = 0; j < 10; j++) {
+          document.write("Hello Universe" + i + j + "<br/>");
+        }
+      }
+    </script>
+  </body>
+</html>

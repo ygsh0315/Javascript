@@ -8,15 +8,11 @@
   <body>
     <script>
       let id = prompt(" 객실번호를 입력해주세요.");
-      if (id == 309) {
-        let gname = prompt("성함을 입력해 주세요.");
-        if (gname == "이재문") {
-          alert("확인되었습니다. 환영합니다.");
-        } else {
-          alert("신원이 불일치합니다.");
-        }
+      let gname = prompt("성함을 입력해 주세요.");
+      if (id == 309 && gname == "이재문") {
+        alert("확인되었습니다. 환영합니다.");
       } else {
-        alert("잘못된 객실입니다.");
+        alert("신원이 불일치합니다.");
       }
     </script>
   </body>

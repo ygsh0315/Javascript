@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ul>
+      <script>
+        let roomNumber = { Olivia: 707, Alex: 909, Mikaela: 1003 };
+        for (key in roomNumber) {
+          document.write(
+            "<li>Guest : " +
+              key +
+              "<br/>" +
+              " Room Number : " +
+              roomNumber[key] +
+              "</li>"
+          );
+        }
+
+        let Wellcome = {
+          show: function () {
+            alert("Wellcome");
+          },
+        };
+        Wellcome["show"]();
+      </script>
+    </ul>
+  </body>
+</html>
